@@ -1,0 +1,86 @@
+/**
+ * Common CSS
+ */
+*{
+ 	margin: 0;
+
+ }
+.page-wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.section-title h3{
+	font-size: 30px;
+	margin-bottom: 20px;
+
+}
+.section-pb{
+	padding-bottom: 50px;
+}
+/* Header area */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+nav.menu {
+    display: flex;
+    align-items: center;
+}
+.menu ul li{
+	display: inline-block;
+	list-style: none;
+}
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    margin-right: 10px;
+}
+
+/*Hero section*/
+.hero-img img {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+
+/* Product Section*/
+.products-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 16px;
+
+}
+.product-item {
+    margin-bottom: 11px;
+}
+.product-item img {
+    width: 100%;
+    object-fit: cover;
+    height: 352px;
+
+}
+video {
+    border: 1px solid #3eadf0;
+}
+
+/*Footer */
+footer{
+	padding-top: 10px;
+	background-color: black;
+}
+.footer-links h5{
+	font-size: 25px;
+	margin-bottom: 10px;
+	color: #fff;
+	margin-left: 20px;
+}
+.footer-links ul li {
+    list-style: decimal;
+}
+.footer-links ul li a{
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+}
